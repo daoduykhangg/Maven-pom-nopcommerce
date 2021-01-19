@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop commerce" parallel="false">
+
+    <listeners>
+        <listener class-name="commons.MethodListener"/>
+        <!-- <listener class-name="reportConfig.ExtentListenerVersion2"/> -->
+        <!-- <listener class-name="reportConfig.ExtentListenerVersion3"/> -->
+        <listener class-name="reportConfig.ExtentListenerVersion4"/>
+        <listener class-name="reportConfig.AllureTestListener"/>
+        <listener class-name="reportConfig.ReportNGListener"/>
+<!--         <listener class-name="retryConfig.RetryListener"/> -->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+<!--        <test name="Run on FIREFOX UI"> -->
+<!--       	<parameter name="browser" value="firefox_ui"/> -->
+<!--       	<parameter name="url" value="https://demo.nopcommerce.com/"/> -->
+<!--          <classes> -->
+<!--          <class name="com.nopcommerce.user.User_01_Register_User"/> -->
+<!--          </classes> -->
+<!--          </test> -->
+
+    <test name="Run on CHROME UI">
+        <parameter name="browser" value="chrome_ui"/>
+        <parameter name="url" value="https://demo.nopcommerce.com/"/>
+        <classes>
+            <class name="com.nopcommerce.user.User_07_Order_Products"/>
+        </classes>
+    </test>
+
+    <!--     <test name="Run on FIREFOX HEADLESS"> -->
+    <!--     <parameter name="browser" value="firefox_headless"/> -->
+    <!--     <classes> -->
+    <!--     <class name="com.nopcommerce.user.Register"/> -->
+    <!--     </classes> -->
+    <!--     </test> -->
+
+    <!--     <test name="Run on CHROME HEADLESS"> -->
+    <!--     <parameter name="browser" value="chrome_headless"/> -->
+    <!--     <classes> -->
+    <!--       <class name="com.nopcommerce.user.Register"/> -->
+    <!--     </classes> -->
+    <!--     </test> -->
+
+    <!--     <test name="Run on EDGE UI"> -->
+    <!--     <parameter name="browser" value="edge_chromium"/> -->
+    <!--     <classes> -->
+    <!--       <class name="com.nopcommerce.user.Register"/> -->
+    <!--     </classes> -->
+    <!--     </test> -->
+</suite> <!-- Suite -->

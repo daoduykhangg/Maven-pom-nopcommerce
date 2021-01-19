@@ -1,0 +1,137 @@
+[INFO ] [2021-01-20 01:05:42,815] Pre-condition - Step 01: Click to 'Register' click
+[INFO ] [2021-01-20 01:05:47,165] Pre-condition - Step 02: Click to 'Gender Male' Radio button
+[INFO ] [2021-01-20 01:05:47,255] Pre-condition - Step 03: Enter to 'FirstName' textbox
+[INFO ] [2021-01-20 01:05:47,872] Pre-condition - Step 04: Enter to 'LastName' textbox
+[INFO ] [2021-01-20 01:05:48,483] Pre-condition - Step 05: Select 'date' dropdown
+[INFO ] [2021-01-20 01:05:48,591] Pre-condition - Step 06: Select 'month' dropdown
+[INFO ] [2021-01-20 01:05:48,689] Pre-condition - Step 07: Select 'year' dropdown
+[INFO ] [2021-01-20 01:05:48,781] Pre-condition - Step 08: Enter to 'Email' textbox with value 'georgann.jacobson@yahoo.com'
+[INFO ] [2021-01-20 01:05:49,512] Pre-condition - Step 09: Enter to 'Company' textbox
+[INFO ] [2021-01-20 01:05:50,231] Pre-condition - Step 10: Enter to 'Password' textbox with value 'o1lk57'
+[INFO ] [2021-01-20 01:05:50,944] Pre-condition - Step 11: Enter to 'ConfirmPassword' textbox with value 'o1lk57'
+[INFO ] [2021-01-20 01:05:51,594] Pre-condition - Step 12: Click to 'Register' button
+[INFO ] [2021-01-20 01:05:53,969] Pre-condition - Step 13: Verify 'Register' Success Message is displayed successfully with value 'Your registration completed
+[INFO ] [2021-01-20 01:05:54,037]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:05:54,037] Pre-condition - Step 14: Click to 'Log out' link and navigate to Home Page
+[INFO ] [2021-01-20 01:05:56,253] Pre-condition - Step 15: Click to 'Log in' link
+[INFO ] [2021-01-20 01:05:58,070] Pre-condition - Step 16: Enter to 'Email' Textbox with value 'georgann.jacobson@yahoo.com'
+[INFO ] [2021-01-20 01:05:58,749] Pre-condition - Step 17: Enter to 'Password' Textbox with value 'o1lk57'
+[INFO ] [2021-01-20 01:05:59,440] Pre-condition - Step 18: Click to 'Log in' Button
+[INFO ] [2021-01-20 01:06:00,445] Order [Payment By Cheque] - Step 01: Click to 'Notebooks' Link
+[INFO ] [2021-01-20 01:06:01,993] Order [Payment By Cheque] - Step 02: Click to 'Apple MacBook Pro 13-inch' Text
+[INFO ] [2021-01-20 01:06:04,803] Order [Payment By Cheque] - Step 03: Click to 'Add to cart' Button
+[INFO ] [2021-01-20 01:06:04,946] Order [Payment By Cheque] - Step 04: Wait For 'Loading Icon' is invisible
+[INFO ] [2021-01-20 01:06:06,122] Order [Payment By Cheque] - Step 05: Verify Success Message is Displayed with value 'The product has been added to your shopping cart'
+[INFO ] [2021-01-20 01:06:06,179]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:06,179] Order [Payment By Cheque] - Step 06: Wait For Text Content is invisible
+[INFO ] [2021-01-20 01:06:14,578] Order [Payment By Cheque] - Step 07: Open 'Shopping cart' Page
+[INFO ] [2021-01-20 01:06:16,161] Order [Payment By Cheque] - Step 08: Wait For 'Loading Icon' Invisible
+[INFO ] [2021-01-20 01:06:17,322] Order [Payment By Cheque] - Step 09: Verify Product is added to Card successfully
+[INFO ] [2021-01-20 01:06:17,441]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:17,441] Order [Payment By Cheque] - Step 10: Click to ' Estimate shipping ' Button
+[INFO ] [2021-01-20 01:06:17,587] Order [Payment By Cheque] - Step 11: Select to 'Country' Dropdown with value 'Viet Nam'
+[INFO ] [2021-01-20 01:06:18,272] Order [Payment By Cheque] - Step 12: Select to 'State' Dropdown with value 'Other'
+[INFO ] [2021-01-20 01:06:18,343] Order [Payment By Cheque] - Step 13: Enter to 'Zip Code' Textbox with value '96882'
+[INFO ] [2021-01-20 01:06:25,198] Order [Payment By Cheque] - Step 14: Click to 'Apply' Button
+[INFO ] [2021-01-20 01:06:25,319] Order [Payment By Cheque] - Step 15: wait For 'Loading Icon' is Invisible
+[INFO ] [2021-01-20 01:06:26,401] Order [Payment By Cheque] - Step 16: Check to 'terms of service' Checkbox
+[INFO ] [2021-01-20 01:06:26,489] Order [Payment By Cheque] - Step 17: Click to 'checkout' Button
+[INFO ] [2021-01-20 01:06:27,842] Order [Payment By Cheque] - Step 18: Uncheck to 'Ship to the same address' Checkbox At Billing Step
+[INFO ] [2021-01-20 01:06:27,945] Order [Payment By Cheque] - Step 19: Enter to 'Firstname' Textbox with value 'Latrina' At Billing Step
+[INFO ] [2021-01-20 01:06:28,688] Order [Payment By Cheque] - Step 20: Enter to 'Lastname' Textbox with value 'Moen' At Billing Step
+[INFO ] [2021-01-20 01:06:29,486] Order [Payment By Cheque] - Step 21: Enter to 'Email' Textbox At Billing Step
+[INFO ] [2021-01-20 01:06:30,196] Order [Payment By Cheque] - Step 22: Select to 'Country' Dropdown with value 'Viet Nam' At Billing Step
+[INFO ] [2021-01-20 01:06:30,886] Order [Payment By Cheque] - Step 23: Select to 'State' Dropdown with value 'Other' At Billing Step
+[INFO ] [2021-01-20 01:06:31,003] Order [Payment By Cheque] - Step 24: Enter to 'City' Textbox with value 'Hồ Chí Minh' At Billing Step
+[INFO ] [2021-01-20 01:06:31,728] Order [Payment By Cheque] - Step 25: Enter to 'Address 1' Textbox with value 'Đặng Minh Trứ' At Billing Step
+[INFO ] [2021-01-20 01:06:32,439] Order [Payment By Cheque] - Step 26: Enter to 'Zip code' Textbox with value '96882' At Billing Step
+[INFO ] [2021-01-20 01:06:33,150] Order [Payment By Cheque] - Step 27: Enter to 'Phone number' Textbox with value '(417) 523-7734' At Billing Step
+[INFO ] [2021-01-20 01:06:33,900] Order [Payment By Cheque] - Step 28: Click to 'Countinue' Button
+[INFO ] [2021-01-20 01:06:34,590] Order [Payment By Cheque] - Step 29: Select to 'shipping address' Dropdown At Shipping Step
+[INFO ] [2021-01-20 01:06:35,170] Order [Payment By Cheque] - Step 30: Select to 'Country' Dropdown with value 'Viet Nam' At Shipping Step
+[INFO ] [2021-01-20 01:06:35,269] Order [Payment By Cheque] - Step 31: Select to 'State' Dropdown with value 'Other' At Shipping Step
+[INFO ] [2021-01-20 01:06:36,410] Order [Payment By Cheque] - Step 32: Enter to 'City' Textbox with value 'Hồ Chí Minh' At Shipping Step
+[INFO ] [2021-01-20 01:06:37,208] Order [Payment By Cheque] - Step 33: Enter to 'Address 1' Textbox with value 'Mầm non 10' At Shipping Step
+[INFO ] [2021-01-20 01:06:37,910] Order [Payment By Cheque] - Step 34: Enter to 'Zip code' Textbox with value '96882' At Shipping Step
+[INFO ] [2021-01-20 01:06:38,564] Order [Payment By Cheque] - Step 35: Enter to 'Phone number' Textbox with value '1-698-915-2326' At Shipping Step
+[INFO ] [2021-01-20 01:06:39,249] Order [Payment By Cheque] - Step 36: Click to 'Countinue' Button At Shipping Step
+[INFO ] [2021-01-20 01:06:39,913] Order [Payment By Cheque] - Step 37: Click to 'Ground ($0.00)' Radio Button At Shipping Method Step
+[INFO ] [2021-01-20 01:06:40,347] Order [Payment By Cheque] - Step 38: Click to 'Countinue' Button At Shipping Method Step
+[INFO ] [2021-01-20 01:06:41,029] Order [Payment By Cheque] - Step 39: Click to 'Check / Money Order' Radio Button At Payment method Step
+[INFO ] [2021-01-20 01:06:41,377] Order [Payment By Cheque] - Step 40: Click to 'Countinue' Button At Payment method Step
+[INFO ] [2021-01-20 01:06:42,036] Order [Payment By Cheque] - Step 41: Verify Payment Information is displayed At Payment information Step
+[INFO ] [2021-01-20 01:06:42,432]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:42,478]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:42,521]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:42,567]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:42,567] Order [Payment By Cheque] - Step 42: Click to 'Countinue' Button At Payment information Step
+[INFO ] [2021-01-20 01:06:43,176] Order [Payment By Cheque] - Step 43: Verify Order Information is displayed At Confirm Order Step
+[INFO ] [2021-01-20 01:06:43,760]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:43,804]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:43,895]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:43,967]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,018]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,063]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,105]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,151]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,196]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,238]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,290]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,335]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,381]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,424]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,470]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,512]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,512] Order [Payment By Cheque] - Step 44: Verify 'Gift Wrapping: No' Text is displayed
+[INFO ] [2021-01-20 01:06:44,555]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,555] Order [Payment By Cheque] - Step 45: Verify 'card-totals' is displayed At Confirm Order Step
+[INFO ] [2021-01-20 01:06:44,602]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,644]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,686]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,731]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,779]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:44,779] Order [Payment By Cheque] - Step 46: Click to 'Confirm' Button At Comfirm Order Step
+[INFO ] [2021-01-20 01:06:44,854] Order [Payment By Cheque] - Step 47: Verify Success Message 'Your order has been successfully processed!' is displayed
+[INFO ] [2021-01-20 01:06:45,948]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:45,948] Order [Payment By Cheque] - Step 48: Verify 'Order Number' Text is displayed
+[INFO ] [2021-01-20 01:06:46,063]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:46,063] Order [Payment By Cheque] - Step 49: click to 'My Account' Link
+[INFO ] [2021-01-20 01:06:47,232] Order [Payment By Cheque] - Step 50: click to 'Orders' Link
+[INFO ] [2021-01-20 01:06:48,316] Order [Payment By Cheque] - Step 51: Verify 'Order Number' Text is displayed with value '1036'
+[INFO ] [2021-01-20 01:06:48,361]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:48,361] Order [Payment By Cheque] - Step 52: Click to 'Details' Link at 'Orders' Page
+[INFO ] [2021-01-20 01:06:49,428] Order [Payment By Cheque] - Step 53: Verify 'OrderNumber' is displayed
+[INFO ] [2021-01-20 01:06:49,474]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,474] Order [Payment By Cheque] - Step 55: Verify 'OrderSatus' is displayed
+[INFO ] [2021-01-20 01:06:49,520]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,520] Order [Payment By Cheque] - Step 56: Verify 'OrderTotal' is displayed
+[INFO ] [2021-01-20 01:06:49,569]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,569] Order [Payment By Cheque] - Step 57: Verify Order Information is displayed correctly at 'Orders' Page
+[INFO ] [2021-01-20 01:06:49,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,654]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,699]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,741]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,795]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,875]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:49,956]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,052]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,113]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,167]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,250]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,292]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,335]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,378]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,423]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,465]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,506]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,549]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,549] Order [Payment By Cheque] - Step 58: Verify 'Gift Wrapping: No' Text is displayed
+[INFO ] [2021-01-20 01:06:50,601]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,601] Order [Payment By Cheque] - Step 59: Verify Verify 'card-totals' is displayed at 'Orders' Page
+[INFO ] [2021-01-20 01:06:50,690]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,797]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,866]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,920]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:50,964]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-20 01:06:51,048] OS name = windows 10
+[INFO ] [2021-01-20 01:06:51,813] ---------- QUIT BROWSER SUCCESS ----------
