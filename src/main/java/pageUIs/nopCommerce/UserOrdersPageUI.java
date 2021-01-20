@@ -11,4 +11,5 @@ public class UserOrdersPageUI {
 	public static final String ORDER_DATE = "//ul[@class='order-overview-content']//li[@class='order-date']";	
 	public static final String ORDER_STATUS = "//ul[@class='order-overview-content']//li[@class='order-status']";	
 	public static final String ORDER_TOTAL = "//ul[@class='order-overview-content']//li[@class='order-total']";	
+	public static final String RE_ORDER_BUTTON = "//input[@value='Re-order']";	
 }

@@ -165,4 +165,39 @@ public class UserCheckoutPO extends AbstractPage {
 		waitForElementVisible(driver, UserCheckoutUI.ORDER_NUMBER);
 		return isElementDisplayed(driver, UserCheckoutUI.ORDER_NUMBER);
 	}
+
+	public void clickToCreditCardRadioButtonAtPaymentMethodStep() {
+		waitForElementClickable(driver, UserCheckoutUI.CREDIT_CARD_RADIO_BUTTON);
+		clickToElement(driver, UserCheckoutUI.CREDIT_CARD_RADIO_BUTTON);
+	}
+
+	public void enterToCardholderNameAtPaymentInforStep(String cardholderName) {
+		waitForElementVisible(driver, UserCheckoutUI.CARDHOLDER_NAME_TEXTBOX);
+		sendkeyToElement(driver, UserCheckoutUI.CARDHOLDER_NAME_TEXTBOX, cardholderName);
+	}
+
+	public void enterToCardNumberAtPaymentInforStep(String cardNumber) {
+		waitForElementVisible(driver, UserCheckoutUI.CARD_NUMBER_TEXTBOX);
+		sendkeyToElement(driver, UserCheckoutUI.CARD_NUMBER_TEXTBOX, cardNumber);
+	}
+
+	public void selectToExpirationMonthAtPaymentInforStep(String expirationMonth) {
+		waitForElementClickable(driver, UserCheckoutUI.EXPIRATION_MONTH_DROPDOWN);
+		selectItemInDropdown(driver, UserCheckoutUI.EXPIRATION_MONTH_DROPDOWN, expirationMonth);
+	}
+
+	public void selectToExpirationYearAtPaymentInforStep(String expirationYear) {
+		waitForElementClickable(driver, UserCheckoutUI.EXPIRATION_YEAR_DROPDOWN);
+		selectItemInDropdown(driver, UserCheckoutUI.EXPIRATION_YEAR_DROPDOWN, expirationYear);
+	}
+
+	public void enterToCardCodeAtPaymentInforStep(String cardCode) {
+		waitForElementVisible(driver, UserCheckoutUI.CARD_CODE_TEXTBOX);
+		sendkeyToElement(driver, UserCheckoutUI.CARD_CODE_TEXTBOX, cardCode);
+	}
+
+	public void clickToNextDayAirRadioButtonAtShippingMethodStep() {
+		waitForElementClickable(driver, UserCheckoutUI.SHIPPING_METHOD_NEXT_DAY_AIR_RADIO_BUTTON);
+		clickToElement(driver, UserCheckoutUI.SHIPPING_METHOD_NEXT_DAY_AIR_RADIO_BUTTON);
+	}
 }

@@ -47,4 +47,8 @@ public class FakerConfig {
 	public String getPhoneNumber() {
 		return faker.phoneNumber().cellPhone();
 	}
+	
+	public String getCreditCardNumber() {
+		return faker.business().creditCardNumber();
+	}
 }

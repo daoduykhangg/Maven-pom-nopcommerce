@@ -56,4 +56,10 @@ public class UserOrdersPO extends AbstractPage {
 		waitForElementVisible(driver, UserOrdersPageUI.ORDER_DATE);
 		return getTextElement(driver, UserOrdersPageUI.ORDER_DATE);
 	}
+
+	public UserShoppingCardPO clickToReOrderButton() {
+		waitForElementClickable(driver, UserOrdersPageUI.RE_ORDER_BUTTON);
+		clickToElement(driver, UserOrdersPageUI.RE_ORDER_BUTTON);
+		return PageGeneratorManager.getShoppingCardPage(driver);
+	}
 }

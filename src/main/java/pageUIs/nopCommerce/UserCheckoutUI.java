@@ -26,6 +26,7 @@ public class UserCheckoutUI {
 	public static final String SHIPPING_PHONE_NUMBER_TEXTBOX = "//input[@id='ShippingNewAddress_PhoneNumber']";
 	
 	public static final String SHIPPING_METHOD_GROUND_RADIO_BUTTON = "//input[@id='shippingoption_0']";
+	public static final String SHIPPING_METHOD_NEXT_DAY_AIR_RADIO_BUTTON = "//input[@id='shippingoption_1']";
 	public static final String PAYMENT_METHOD_CHECK_MONEY_ORDER_RADIO_BUTTON = "//input[@id='paymentmethod_0']";
 	public static final String DYNAMIC_PAYMENT_INFOR_TEXT = "//div[contains(@class,'section payment-info')]//tr/td/p[%s]";
 	
@@ -39,5 +40,11 @@ public class UserCheckoutUI {
 	public static final String SUCCESS_MESSAGE_ORDER_COMPLETE = "//div[contains(@class,'section order-completed')]/div[@class='title']//strong";
 	public static final String ORDER_NUMBER = "//div[contains(@class,'section order-completed')]/div[@class='details']//strong";
 	
+	public static final String CREDIT_CARD_RADIO_BUTTON = "//input[@id='paymentmethod_1']";
+	public static final String CARDHOLDER_NAME_TEXTBOX = "//input[@id='CardholderName']";
+	public static final String CARD_NUMBER_TEXTBOX = "//input[@id='CardNumber']";
+	public static final String EXPIRATION_MONTH_DROPDOWN = "//select[@id='ExpireMonth']";
+	public static final String EXPIRATION_YEAR_DROPDOWN = "//select[@id='ExpireYear']";
+	public static final String CARD_CODE_TEXTBOX = "//input[@id='CardCode']";
 	
 }

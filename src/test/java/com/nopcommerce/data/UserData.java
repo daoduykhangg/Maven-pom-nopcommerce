@@ -45,15 +45,26 @@ public class UserData {
 		public static final String EDIT_PRODUCT_QUANTITY = "5";
 		public static final String EDIT_SUB_TOTALS = "$2,500.00";
 	}
-	
+
 	public class AppleMacBookPro13inch {
 		public static final String PRODUCT_NAME = "Apple MacBook Pro 13-inch";
 		public static final String SKU = "AP_MBP_13";
 		public static final String IMAGE = "Apple MacBook Pro 13-inch";
-		
+
 		public static final String PRODUCT_QUANTITY = "2";
+		public static final String EDIT_PRODUCT_QUANTITY = "10";
 		public static final String PRICE = "$1,800.00";
+		public static final String EDIT_SUB_TOTALS = "$18,000.00";
 		public static final String SUB_TOTALS = "$3,600.00";
-		
+
+	}
+
+	public class cartTotal {
+		public static final String ORDER_SUBTOTAL = "$3,600.00";
+		public static final String EDIT_ORDER_SUBTOTAL = "$18,000.00";
+		public static final String SHIPPING_COST = "$0.00";
+		public static final String TAX = "$0.00";
+		public static final String ORDER_TOTAL = "$3,600.00";
+		public static final String EDIT_ORDER_TOTAL = "$18,000.00";
 	}
 }
