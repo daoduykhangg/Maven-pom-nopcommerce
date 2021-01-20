@@ -34,7 +34,7 @@ public class Level_10_Upload_File extends AbstractTest {
 
 	@Test
 	public void TC_01_Upload_File() {
-		productsPage.inputProductNameTextbox(productName);
+		productsPage.enterProductNameTextbox(productName);
 		productsPage.clickToSearchButton();
 		productsPage.clickToEditButtonByProductName(productName);
 		productsPage.scrollToPanelByPanelID("product-pictures");
@@ -49,7 +49,7 @@ public class Level_10_Upload_File extends AbstractTest {
 		Assert.assertTrue(productsPage.areProductPictureDetailDisplayed(productName, pictureOrder, pictureAlt, pictureTitle));
 		productsPage.clickToSaveButton();
 		
-		productsPage.inputProductNameTextbox(productName);
+		productsPage.enterProductNameTextbox(productName);
 		productsPage.clickToSearchButton();
 		Assert.assertTrue(productsPage.areProductDetailDisplayed(productName, productName, "AD_CS4_PH", "75", "10000", "Simple", "true"));
 		productsPage.clickToEditButtonByProductName(productName);
@@ -58,7 +58,7 @@ public class Level_10_Upload_File extends AbstractTest {
 		productsPage.clickToDeleteButtonByTitle(pictureTitle);
 		productsPage.clickToSaveButton();
 		
-		productsPage.inputProductNameTextbox(productName);
+		productsPage.enterProductNameTextbox(productName);
 		productsPage.clickToSearchButton();
 		Assert.assertTrue(productsPage.areProductDetailDisplayed("default-image", productName, "AD_CS4_PH", "75", "10000", "Simple", "true"));
 		

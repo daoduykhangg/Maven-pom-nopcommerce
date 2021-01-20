@@ -27,4 +27,13 @@ public class AdminProductsPageUI {
 	public static final String PRODUCT_PICTURE_UPLOADED_DETAIL = "//td[@data-columnname='PictureUrl']/a[contains(@href,'%s')]/parent::td/following-sibling::td[@data-columnname='DisplayOrder' and text()='%s']/following-sibling::td[@data-columnname='OverrideAltAttribute' and text()='%s']/following-sibling::td[@data-columnname='OverrideTitleAttribute' and text()='%s']";
 	public static final String SAVE_BUTTON = "//button[@name='save']";
 	public static final String DELETE_BUTTON_BY_TITLE = "//td[@data-columnname='OverrideTitleAttribute' and text()='%s']/following-sibling::td//i[contains(@class,'fa-remove')]";
+
+	public static final String CATEGORY_DROPDOWN = "//select[@id='SearchCategoryId']";
+	public static final String SEARCH_SUBCATEGORIES_CHECKBOX = "//input[@id='SearchIncludeSubCategories']";
+	public static final String NO_DATA_AVAILABLE_IN_TABLE = "//table//td[@class='dataTables_empty']";
+	public static final String MANUFACTURER_DROPDOWN = "//select[@id='SearchManufacturerId']";
+	
+	public static final String GO_DIRECTLY_TO_PRODUCT_SKU	 = "//input[@id='GoDirectlyToSku']";
+	public static final String GO_BUTTON = "//button[@id='go-to-product-by-sku']";
+	public static final String PRODUCT_NAME_AT_DETAIL = "//input[@id='Name']";
 }

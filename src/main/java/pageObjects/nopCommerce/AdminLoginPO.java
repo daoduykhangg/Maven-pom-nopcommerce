@@ -12,13 +12,13 @@ public class AdminLoginPO extends AbstractPage {
 		this.driver = driver;
 	}
 
-	public void sendkeyToEmailTextbox(String email) {
+	public void enterToEmailTextbox(String email) {
 		waitForElementClickable(driver, AdminLoginPageUI.EMAIL_TEXTBOX);
 		sendkeyToElement(driver, AdminLoginPageUI.EMAIL_TEXTBOX, email);
 
 	}
 
-	public void sendkeyToPasswordTextbox(String password) {
+	public void enterToPasswordTextbox(String password) {
 		waitForElementClickable(driver, AdminLoginPageUI.PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, AdminLoginPageUI.PASSWORD_TEXTBOX, password);
 
@@ -31,8 +31,8 @@ public class AdminLoginPO extends AbstractPage {
 	}
 
 	public AdminDashBoardPO loginToSystem(String email, String password) {
-		sendkeyToEmailTextbox(email);
-		sendkeyToPasswordTextbox(password);
+		enterToEmailTextbox(email);
+		enterToPasswordTextbox(password);
 		return clickToLoginButton();
 	}
 

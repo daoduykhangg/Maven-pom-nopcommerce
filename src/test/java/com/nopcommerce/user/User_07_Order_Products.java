@@ -111,7 +111,7 @@ public class User_07_Order_Products extends AbstractTest {
 		homePage = loginPage.clickToLoginButton();
 	}
 
-//	@Test
+	@Test
 	public void TC_01_Add_Product_To_Shopping_Card() {
 		log.info("Order [Add Product to Card] - Step 01: Click to 'Desktops' Link");
 		homePage.openSubMenuPageByNameAtHeaderMenu(driver, "Computers", "Desktops");
@@ -168,7 +168,7 @@ public class User_07_Order_Products extends AbstractTest {
 		verifyEquals(computersDetailPage.getSubTotalsText(), "Sub-Total: " + UserData.BuildYourOwnComputer.SUB_TOTALS + "");
 	}
 
-//	@Test(dependsOnMethods = "TC_01_Add_Product_To_Shopping_Card")
+	@Test(dependsOnMethods = "TC_01_Add_Product_To_Shopping_Card")
 	public void TC_02_Edit_Product_In_Shopping_Card() {
 		log.info("Order [Edit Product In Card] - Step 01: Open 'Shopping cart' Page");
 		computersDetailPage.clickToLinkByClass(driver, "ico-cart");
@@ -231,7 +231,7 @@ public class User_07_Order_Products extends AbstractTest {
 		verifyEquals(computersDetailPage.getSubTotalsText(), "Sub-Total: " + UserData.EditBuildYourOwnComputer.EDIT_SUB_TOTALS + "");
 	}
 
-//	@Test(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card" })
+	@Test(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card" })
 	public void TC_03_Remove_Product_From_Shopping_Card() {
 		log.info("Order [Remove Product From Card] - Step 01: Open 'Shopping cart' Page");
 		computersDetailPage.clickToLinkByClass(driver, "ico-cart");
@@ -255,7 +255,7 @@ public class User_07_Order_Products extends AbstractTest {
 				UserData.EditBuildYourOwnComputer.EDIT_SUB_TOTALS));
 	}
 
-//	@Test(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card", "TC_03_Remove_Product_From_Shopping_Card" })
+	@Test(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card", "TC_03_Remove_Product_From_Shopping_Card" })
 	public void TC_04_Update_Shopping_Card() {
 		log.info("Order [Update Card] - Step 01: Click to 'Desktops' Link");
 		homePage.openSubMenuPageByNameAtHeaderMenu(driver, "Computers", "Desktops");
@@ -317,10 +317,10 @@ public class User_07_Order_Products extends AbstractTest {
 				UserData.EditLenovoIdeaCentre600AllinOnePC.EDIT_PRODUCT_QUANTITY, UserData.EditLenovoIdeaCentre600AllinOnePC.EDIT_SUB_TOTALS));
 	}
 
-	@Test/*(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card", "TC_03_Remove_Product_From_Shopping_Card", "TC_04_Update_Shopping_Card"})*/
+	@Test(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card", "TC_03_Remove_Product_From_Shopping_Card", "TC_04_Update_Shopping_Card"})
 	public void TC_05_Order_Checkout_Products_Payment_By_Cheque() {
 		log.info("Order [Payment By Cheque] - Step 01: Click to 'Notebooks' Link");
-		homePage.openSubMenuPageByNameAtHeaderMenu(driver, "Computers", "Notebooks");
+		shoppingCardPage.openSubMenuPageByNameAtHeaderMenu(driver, "Computers", "Notebooks");
 		computersPage = PageGeneratorManager.getUserComputersPage(driver);
 
 		log.info("Order [Payment By Cheque] - Step 02: Click to '" + UserData.AppleMacBookPro13inch.PRODUCT_NAME + "' Text");
@@ -558,7 +558,7 @@ public class User_07_Order_Products extends AbstractTest {
 
 	}
 
-	@Test/*(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card", "TC_03_Remove_Product_From_Shopping_Card", "TC_04_Update_Shopping_Card", "TC_05_Order_Checkout_Products_Payment_By_Cheque"})*/
+	@Test(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card", "TC_03_Remove_Product_From_Shopping_Card", "TC_04_Update_Shopping_Card", "TC_05_Order_Checkout_Products_Payment_By_Cheque"})
 	public void TC_06_Order_Checkout_Products_Payment_By_Card() {
 		log.info("Order [Payment By Card] - Step 01: Click to 'Notebooks' Link");
 		ordersPage.openSubMenuPageByNameAtHeaderMenu(driver, "Computers", "Notebooks");
@@ -808,7 +808,7 @@ public class User_07_Order_Products extends AbstractTest {
 		verifyEquals(ordersPage.getTextCartTotalAtordersPage("4"), UserData.cartTotal.ORDER_TOTAL);
 	}
 
-	@Test/*(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card", "TC_03_Remove_Product_From_Shopping_Card", "TC_04_Update_Shopping_Card", "TC_05_Order_Checkout_Products_Payment_By_Cheque", "TC_06_Order_Checkout_Products_Payment_By_Card"})*/
+	@Test(dependsOnMethods = { "TC_01_Add_Product_To_Shopping_Card", "TC_02_Edit_Product_In_Shopping_Card", "TC_03_Remove_Product_From_Shopping_Card", "TC_04_Update_Shopping_Card", "TC_05_Order_Checkout_Products_Payment_By_Cheque", "TC_06_Order_Checkout_Products_Payment_By_Card"})
 	public void TC_07_Order_Checkout_Products_Payment_By_Card() {
 		log.info("Order [Re-Order] - Step 01: click to 'My Account' Link");
 		ordersPage.clickToLinkByClass(driver, "ico-account");

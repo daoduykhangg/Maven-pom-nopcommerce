@@ -34,6 +34,10 @@ public class UserData {
 		public static final String PRODUCT_NAME = "Lenovo IdeaCentre 600 All-in-One PC";
 		public static final String SKU = "LE_IC_600";
 		public static final String IMAGE = "Lenovo IdeaCentre 600 All-in-One PC";
+		public static final String PRODUCT_TYPE = "Simple";
+		public static final String PUBLISH_STATUS = "true";
+		public static final String PRICE_AT_ADMIN = "500";
+		public static final String STOCK_QUANTITY = "10000";
 
 		public static final String PRODUCT_QUANTITY = "1";
 		public static final String PRICE = "$500.00";

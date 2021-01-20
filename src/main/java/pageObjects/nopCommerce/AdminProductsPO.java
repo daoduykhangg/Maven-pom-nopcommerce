@@ -84,7 +84,7 @@ public class AdminProductsPO extends AbstractPage {
 		return isElementDisplayed(driver, AdminProductsPageUI.PUBLIC_STATUS_MIX_BY_COLUMN_AND_ROW_INDEX, rowIndex, String.valueOf(columnNameIndex), publicStatus);
 	}
 
-	public void inputProductNameTextbox(String productName) {
+	public void enterProductNameTextbox(String productName) {
 		waitForElementVisible(driver, AdminProductsPageUI.PRODUCT_NAME_TEXT_BOX);
 		sendkeyToElement(driver, AdminProductsPageUI.PRODUCT_NAME_TEXT_BOX, productName);
 	}
@@ -141,6 +141,42 @@ public class AdminProductsPO extends AbstractPage {
 		waitAlertPresence(driver);
 		acceptAlert(driver);
 		WaitForLoadingIconInvisibleAtAdmin(driver);
+	}
+
+	public void selectToCategoryDropdown(String categoryValue) {
+		waitForElementClickable(driver, AdminProductsPageUI.CATEGORY_DROPDOWN);
+		selectItemInDropdown(driver, AdminProductsPageUI.CATEGORY_DROPDOWN, categoryValue);
+	}
+
+	public String getNoDataVailableInTable() {
+		waitForElementVisible(driver, AdminProductsPageUI.NO_DATA_AVAILABLE_IN_TABLE);
+		return getTextElement(driver, AdminProductsPageUI.NO_DATA_AVAILABLE_IN_TABLE);
+	}
+
+	public void checkToSearchSubcategoriesCheckbox() {
+		waitForElementClickable(driver, AdminProductsPageUI.SEARCH_SUBCATEGORIES_CHECKBOX);
+		checkTheCheckbox(driver, AdminProductsPageUI.SEARCH_SUBCATEGORIES_CHECKBOX);
+	}
+
+	public void selectToManufacturerDropdown(String manuFacturer) {
+		waitForElementClickable(driver, AdminProductsPageUI.MANUFACTURER_DROPDOWN);
+		selectItemInDropdown(driver, AdminProductsPageUI.MANUFACTURER_DROPDOWN, manuFacturer);
+	}
+
+	public void enterGoDirectlyToProductSKUTextbox(String sku) {
+		waitForElementVisible(driver, AdminProductsPageUI.GO_DIRECTLY_TO_PRODUCT_SKU);
+		sendkeyToElement(driver, AdminProductsPageUI.GO_DIRECTLY_TO_PRODUCT_SKU, sku);
+	}
+
+	public void clickToGoButton() {
+		waitForElementClickable(driver, AdminProductsPageUI.GO_BUTTON);
+		clickToElement(driver, AdminProductsPageUI.GO_BUTTON);
+		WaitForLoadingIconInvisibleAtAdmin(driver);
+	}
+
+	public String getProductNameAtDetail() {
+		waitForElementVisible(driver, AdminProductsPageUI.PRODUCT_NAME_AT_DETAIL);
+		return getElementAttribute(driver, AdminProductsPageUI.PRODUCT_NAME_AT_DETAIL, "value");
 	}
 
 	
