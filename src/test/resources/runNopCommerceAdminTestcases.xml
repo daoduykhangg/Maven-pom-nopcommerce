@@ -17,7 +17,7 @@
     <test name="Run on CHROME UI">
     <parameter name="browser" value="chrome_ui"/>
     <classes>
-      <class name="com.nopcommerce.admin.Admin_01_Search_Product"/>
+      <class name="com.nopcommerce.admin.Admin_02_Create_Edit_Search_Customer"/>
     </classes>
     </test>
     

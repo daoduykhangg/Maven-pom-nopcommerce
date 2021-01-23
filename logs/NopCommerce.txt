@@ -1,40 +1,69 @@
-[INFO ] [2021-01-21 00:59:35,745] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
-[INFO ] [2021-01-21 00:59:36,404] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
-[INFO ] [2021-01-21 00:59:37,023] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
-[INFO ] [2021-01-21 00:59:44,282] Pre-condition - Step 04: Open 'Products' Page
-[INFO ] [2021-01-21 00:59:48,384] Search [Product Name] - Step 01: Enter to 'Product name' Textbox with value 'Lenovo IdeaCentre 600 All-in-One PC'
-[INFO ] [2021-01-21 00:59:49,156] Search [Product Name] - Step 02: Click to 'Search' Button
-[INFO ] [2021-01-21 00:59:49,845] Search [Product Name] - Step 03: Verify Product is displayed successfully
-[INFO ] [2021-01-21 00:59:49,965]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-21 00:59:50,076] Search [Product Name, Parent Category] - Step 01: Refresh Current Page
-[INFO ] [2021-01-21 00:59:52,909] Search [Product Name, Parent Category] - Step 02: Enter to 'Product name' Textbox with value 'Lenovo IdeaCentre 600 All-in-One PC'
-[INFO ] [2021-01-21 00:59:53,610] Search [Product Name, Parent Category] - Step 03: Select 'Category' Dropdown with value 'Computers'
-[INFO ] [2021-01-21 00:59:53,730] Search [Product Name, Parent Category] - Step 04: Click to 'Search' Button
-[INFO ] [2021-01-21 00:59:54,415] Search [Product Name, Parent Category] - Step 05: Verify 'No data available in table' is displayed
-[INFO ] [2021-01-21 00:59:54,496]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-21 00:59:54,506] Search [Product Name, Parent Category, Check Subcategories] - Step 01: Refresh Current Page
-[INFO ] [2021-01-21 00:59:56,697] Search [Product Name, Parent Category, Check Subcategories] - Step 02: Enter to 'Product name' Textbox with value 'Lenovo IdeaCentre 600 All-in-One PC'
-[INFO ] [2021-01-21 00:59:57,486] Search [Product Name, Parent Category, Check Subcategories] - Step 03: Select 'Category' Dropdown with value 'Computers'
-[INFO ] [2021-01-21 00:59:57,596] Search [Product Name, Parent Category, Check Subcategories] - Step 04: Check 'Search subcategories' Checkbox
-[INFO ] [2021-01-21 00:59:57,697] Search [Product Name, Parent Category, Check Subcategories] - Step 05: Click to 'Search' Button
-[INFO ] [2021-01-21 00:59:58,375] Search [Product Name, Parent Category, Check Subcategories] - Step 06: Verify Product is displayed successfully
-[INFO ] [2021-01-21 00:59:58,466]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-21 00:59:58,471] Search [Product Name, Chlid Category] - Step 01: Refresh Current Page
-[INFO ] [2021-01-21 01:00:01,334] Search [Product Name, Chlid Category] - Step 02: Enter to 'Product name' Textbox with value 'Lenovo IdeaCentre 600 All-in-One PC'
-[INFO ] [2021-01-21 01:00:02,060] Search [Product Name, Chlid Category] - Step 03: Select 'Category' Dropdown with value 'Computers >> Desktops'
-[INFO ] [2021-01-21 01:00:02,163] Search [Product Name, Chlid Category] - Step 04: Click to 'Search' Button
-[INFO ] [2021-01-21 01:00:02,841] Search [Product Name, Chlid Category] - Step 05: Verify Product is displayed successfully
-[INFO ] [2021-01-21 01:00:02,964]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-21 01:00:02,970] Search [Product Name, Manufacturer] - Step 01: Refresh Current Page
-[INFO ] [2021-01-21 01:00:04,571] Search [Product Name, Manufacturer] - Step 02: Enter to 'Product name' Textbox with value 'Lenovo IdeaCentre 600 All-in-One PC'
-[INFO ] [2021-01-21 01:00:05,330] Search [Product Name, Manufacturer] - Step 03: Select 'Manufacturer' Dropdown with value 'Apple'
-[INFO ] [2021-01-21 01:00:05,442] Search [Product Name, Manufacturer] - Step 04: Click to 'Search' Button
-[INFO ] [2021-01-21 01:00:06,110] Search [Product Name, Manufacturer] - Step 05: Verify 'No data available in table' is displayed
-[INFO ] [2021-01-21 01:00:06,164]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-21 01:00:06,168] Search [Product Name, Manufacturer] - Step 01: Refresh Current Page
-[INFO ] [2021-01-21 01:00:07,923] Search [Product Name, Manufacturer] - Step 02: Enter to 'Go directly to product SKU' Textbox with value 'LE_IC_600'
-[INFO ] [2021-01-21 01:00:08,628] Search [Product Name, Manufacturer] - Step 04: Click to 'Go' Button
-[INFO ] [2021-01-21 01:00:12,434] Search [Product Name, Manufacturer] - Step 05: Verify Infomation of 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
-[INFO ] [2021-01-21 01:00:12,514]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-21 01:00:12,525] OS name = windows 10
-[INFO ] [2021-01-21 01:00:13,382] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-24 00:48:13,289] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:48:14,071] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:48:14,782] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-24 00:48:20,785] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-24 00:48:24,138] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-24 00:48:25,167] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-24 00:48:25,851] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-24 00:48:26,520] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-24 00:48:27,134] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-24 00:48:27,841] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-24 00:48:27,954] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-24 00:48:28,615] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-24 00:48:29,394] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:29,473] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:30,325] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-24 00:48:31,023] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-24 00:48:33,641] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-24 00:48:33,735]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,735] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-24 00:48:33,782]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,829]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,870]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,908]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,946]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,987]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:34,035]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:34,071]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:34,072] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-24 00:48:35,677] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:35,751] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:36,465] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:37,125] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:37,171]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:37,298] Search Customer [Email] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:48:38,764] Search Customer [Email] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:39,393] Search Customer [Email] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:39,488] Search Customer [Email] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:40,187] Search Customer [Email] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:40,873] Search Customer [Email] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:40,973]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:40,980] Search Customer [FirstName and LastName] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:48:42,498] Search Customer [FirstName and LastName] - Step 02: Enter to 'Firstname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:43,196] Search Customer [FirstName and LastName] - Step 03: Enter to 'Lastname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:43,876] Search Customer [FirstName and LastName] - Step 04: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:43,965] Search Customer [FirstName and LastName] - Step 05: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:44,798] Search Customer [FirstName and LastName] - Step 06: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:45,466] Search Customer [FirstName and LastName] - Step 07: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:45,547]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:45,551] Search Customer [Company] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:48:47,081] Search Customer [Company] - Step 02: Enter to 'Company' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:47,804] Search Customer [Company] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:47,919] Search Customer [Company] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:48,679] Search Customer [Company] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:49,425] Search Customer [Company] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:49,489]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:49,492] Search Customer [Full Data] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:48:51,041] Search Customer [Full Data] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:51,733] Search Customer [Full Data] - Step 03: Enter to 'Firstname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:52,422] Search Customer [Full Data] - Step 04: Enter to 'Lastname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:53,116] Search Customer [Full Data] - Step 05: Select 'Month' Dropdown with value ''
+[INFO ] [2021-01-24 00:48:53,239] Search Customer [Full Data] - Step 06: Select 'Day' Dropdown with value ''
+[INFO ] [2021-01-24 00:48:53,339] Search Customer [Full Data] - Step 07: Enter to 'Company' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:54,062] Search Customer [Full Data] - Step 08: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:54,155] Search Customer [Full Data] - Step 09: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:54,934] Search Customer [Full Data] - Step 10: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:55,570] Search Customer [Full Data] - Step 11: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:55,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:55,612] OS name = windows 10
+[INFO ] [2021-01-24 00:48:56,596] ---------- QUIT BROWSER SUCCESS ----------

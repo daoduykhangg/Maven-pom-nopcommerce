@@ -81,4 +81,8 @@ public class PageGeneratorManager {
 	public static UserCheckoutPO getUserCheckoutPage(WebDriver driver) {
 		return new UserCheckoutPO(driver);
 	}
+	
+	public static AdminCustomersPO getCustomersPage(WebDriver driver) {
+		return new AdminCustomersPO(driver);
+	}
 }

@@ -20,4 +20,13 @@ public class AdminDashBoardPO extends AbstractPage {
 		WaitForLoadingIconInvisibleAtAdmin(driver);
 		return PageGeneratorManager.getAdminProductsPage(driver);
 	}
+
+	public AdminCustomersPO openCustomersPage() {
+		waitForElementVisible(driver, AdminDashBoardPageUI.CUSTOMERS_TEXT_AT_SIDEBAR);
+		clickToElement(driver, AdminDashBoardPageUI.CUSTOMERS_TEXT_AT_SIDEBAR);
+		waitForElementVisible(driver, AdminDashBoardPageUI.CUSTOMERS_LINK_AT_SIDEBAR);
+		clickToElement(driver, AdminDashBoardPageUI.CUSTOMERS_LINK_AT_SIDEBAR);
+		WaitForLoadingIconInvisibleAtAdmin(driver);
+		return PageGeneratorManager.getCustomersPage(driver);
+	}
 }

@@ -20137,3 +20137,601 @@ Session ID: 30035eac-0cf5-4c8d-8b45-a14e555b6637
 [INFO ] [2021-01-21 01:00:12,514]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-01-21 01:00:12,525] OS name = windows 10
 [INFO ] [2021-01-21 01:00:13,382] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-22 22:28:10,906] OS name = windows 10
+[INFO ] [2021-01-22 22:28:10,906] 
+[INFO ] [2021-01-22 22:28:37,573] OS name = windows 10
+[INFO ] [2021-01-22 22:28:37,574] 
+[INFO ] [2021-01-22 22:29:23,927] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-22 22:29:24,617] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-22 22:29:25,324] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-22 22:29:32,563] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-22 22:29:34,741] OS name = windows 10
+[INFO ] [2021-01-22 22:29:35,570] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-22 23:51:33,738] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-22 23:51:34,454] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-22 23:51:35,075] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-22 23:51:40,557] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-22 23:51:44,120] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-22 23:51:45,394] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-22 23:51:46,075] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-22 23:51:46,764] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-22 23:51:47,410] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-22 23:51:48,063] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-22 23:51:48,157] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-22 23:51:48,801] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-22 23:51:49,473] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-22 23:51:49,551] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-22 23:51:50,290] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-22 23:51:51,080] OS name = windows 10
+[INFO ] [2021-01-22 23:51:51,968] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 00:39:36,600] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:39:37,327] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:39:37,952] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 00:43:03,301] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:43:04,085] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:43:04,728] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 00:43:11,578] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-23 00:43:13,566] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-23 00:43:14,561] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-23 00:43:15,208] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-23 00:43:15,911] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-23 00:43:16,613] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-23 00:43:17,334] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-23 00:43:17,422] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-23 00:43:18,041] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-23 00:43:18,681] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:43:18,765] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:43:19,477] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-23 00:43:20,194] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-23 00:43:22,437] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-23 00:43:22,507]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,509] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-23 00:43:22,547]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,586]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,625]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,668]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,706]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,746]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,791]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,829]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:43:22,829] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-23 00:43:24,546] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:43:24,621] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:43:25,423] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-23 00:43:26,757] OS name = windows 10
+[INFO ] [2021-01-23 00:43:27,599] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 00:45:04,402] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:45:05,179] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:45:05,882] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 00:45:12,949] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-23 00:45:14,948] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-23 00:45:17,448] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-23 00:45:18,194] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-23 00:45:18,835] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-23 00:45:19,475] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-23 00:45:20,188] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-23 00:45:20,274] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-23 00:45:20,903] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-23 00:45:21,522] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:45:21,599] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:45:22,319] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-23 00:45:23,071] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-23 00:45:27,189] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-23 00:45:27,325]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:45:27,326] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-23 00:45:27,326] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-23 00:45:29,102] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:45:29,174] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:45:29,858] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-23 00:45:30,661] OS name = windows 10
+[INFO ] [2021-01-23 00:45:31,499] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 00:47:45,035] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:47:45,784] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:47:46,409] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 00:47:53,411] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-23 00:47:56,099] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-23 00:47:57,110] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-23 00:47:57,787] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-23 00:47:58,446] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-23 00:47:59,129] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-23 00:47:59,735] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-23 00:47:59,834] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-23 00:48:00,479] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-23 00:48:01,218] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:48:01,292] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:48:02,143] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-23 00:48:02,802] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-23 00:48:04,938] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-23 00:48:05,050]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:48:05,050] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-23 00:48:05,050] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-23 00:48:06,664] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:48:06,736] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:48:07,548] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-23 00:48:08,357] OS name = windows 10
+[INFO ] [2021-01-23 00:48:09,172] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 00:48:32,053] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:48:32,741] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:48:33,362] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 00:48:38,655] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-23 00:48:41,449] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-23 00:48:44,037] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-23 00:48:44,697] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-23 00:48:45,395] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-23 00:48:46,043] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-23 00:48:46,651] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-23 00:48:46,736] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-23 00:48:47,444] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-23 00:48:48,141] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:48:48,222] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:48:48,922] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-23 00:48:49,617] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-23 00:48:52,411] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-23 00:48:52,524]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:48:52,524] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-23 00:48:52,578]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:48:52,580] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-23 00:48:54,901] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:48:54,974] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:48:55,779] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-23 00:48:57,599] OS name = windows 10
+[INFO ] [2021-01-23 00:48:58,424] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 00:52:05,289] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:52:06,029] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:52:06,746] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 00:52:13,643] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-23 00:52:15,621] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-23 00:52:17,392] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-23 00:52:18,037] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-23 00:52:18,729] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-23 00:52:19,343] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-23 00:52:20,062] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-23 00:52:20,146] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-23 00:52:20,877] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-23 00:52:21,557] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:52:21,638] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:52:22,524] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-23 00:52:23,225] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-23 00:52:25,953] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-23 00:52:26,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,059] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-23 00:52:26,107]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,149]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,186]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,236]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,281]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,326]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,361]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,399]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:52:26,400] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-23 00:52:30,554] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:52:36,625] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:52:37,466] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-23 00:52:39,328] OS name = windows 10
+[INFO ] [2021-01-23 00:52:40,093] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 00:53:47,766] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:53:48,488] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:53:49,167] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 00:53:55,499] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-23 00:53:58,344] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-23 00:53:59,319] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-23 00:53:59,980] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-23 00:54:00,621] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-23 00:54:01,287] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-23 00:54:02,041] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-23 00:54:02,148] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-23 00:54:02,768] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-23 00:54:03,463] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:54:03,543] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:54:04,328] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-23 00:54:04,956] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-23 00:54:07,764] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-23 00:54:07,814]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:54:07,814] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-23 00:54:07,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:54:07,915]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:54:07,952]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:54:07,993]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:54:08,032]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:54:08,067]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:54:08,110]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-01-23 00:54:08,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:54:08,152] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-23 00:54:11,608] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:54:11,702] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:54:12,478] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-23 00:54:14,402] OS name = windows 10
+[INFO ] [2021-01-23 00:54:15,242] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 00:54:41,191] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:54:41,963] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 00:54:42,607] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 00:54:49,639] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-23 00:54:51,662] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-23 00:54:52,742] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-23 00:54:53,483] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-23 00:54:54,236] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-23 00:54:54,897] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-23 00:54:55,626] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-23 00:54:55,720] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-23 00:54:56,439] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-23 00:54:57,087] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:54:57,165] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:54:57,928] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-23 00:54:58,663] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-23 00:55:01,398] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-23 00:55:01,494]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,494] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-23 00:55:01,542]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,585]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,622]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,671]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,715]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,748]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,790]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,827]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 00:55:01,827] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-23 00:55:03,509] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 00:55:03,656] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 00:55:04,438] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-23 00:55:05,247] OS name = windows 10
+[INFO ] [2021-01-23 00:55:06,014] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 23:58:50,113] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-23 23:58:50,867] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-23 23:58:51,555] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-23 23:58:58,311] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-23 23:59:00,730] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-23 23:59:03,389] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-23 23:59:04,176] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-23 23:59:04,787] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-23 23:59:05,427] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-23 23:59:06,115] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-23 23:59:06,207] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-23 23:59:06,896] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-23 23:59:07,587] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 23:59:07,663] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 23:59:08,394] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-23 23:59:09,094] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-23 23:59:14,052] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-23 23:59:14,100]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,100] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-23 23:59:14,136]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,176]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,210]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,249]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,286]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,322]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,364]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,406]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:14,406] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-23 23:59:17,122] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-23 23:59:17,193] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-23 23:59:17,935] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-23 23:59:18,610] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-23 23:59:18,667]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 23:59:18,766] OS name = windows 10
+[INFO ] [2021-01-23 23:59:19,594] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-24 00:15:52,329] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:15:53,054] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:15:53,676] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-24 00:16:00,595] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-24 00:16:03,082] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-24 00:16:05,786] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-24 00:16:06,433] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-24 00:16:07,070] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-24 00:16:07,788] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-24 00:16:08,425] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-24 00:16:08,571] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-24 00:16:09,264] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-24 00:16:09,968] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:16:10,065] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:16:10,779] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-24 00:16:11,433] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-24 00:16:14,990] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-24 00:16:15,039]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,039] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-24 00:16:15,074]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,113]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,194]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,230]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,268]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,312]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,347]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:15,347] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-24 00:16:16,968] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:16:17,045] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:16:17,831] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-24 00:16:18,554] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:16:18,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:18,716] Search Customer [with Email] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:16:19,674] Search Customer [with Email] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:16:20,308] Search Customer [with Email] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:16:20,385] Search Customer [with Email] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:16:26,630] Search Customer [with Email] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:16:27,307] Search Customer [with Email] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:16:27,351]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:16:27,359] OS name = windows 10
+[INFO ] [2021-01-24 00:16:28,117] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-24 00:16:53,041] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:16:53,788] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:16:54,484] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-24 00:17:01,462] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-24 00:17:04,880] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-24 00:17:05,932] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-24 00:17:06,589] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-24 00:17:07,260] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-24 00:17:07,948] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-24 00:17:08,557] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-24 00:17:08,640] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-24 00:17:09,398] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-24 00:17:10,087] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:17:10,166] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:17:10,881] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-24 00:17:11,636] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-24 00:17:13,915] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-24 00:17:14,036]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,036] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-24 00:17:14,085]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,124]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,159]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,201]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,237]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,276]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,324]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,359]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:14,359] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-24 00:17:18,536] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:17:18,674] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:17:19,446] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-24 00:17:21,174] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:17:21,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:17:21,316] Search Customer [with Email] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:17:22,286] Search Customer [with Email] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:17:22,966] Search Customer [with Email] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:17:23,046] Search Customer [with Email] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:17:38,853] OS name = windows 10
+[INFO ] [2021-01-24 00:17:39,638] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-24 00:19:34,488] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:19:35,186] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:19:35,807] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-24 00:19:42,351] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-24 00:19:44,310] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-24 00:19:45,366] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-24 00:19:46,002] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-24 00:19:46,670] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-24 00:19:47,365] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-24 00:19:48,036] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-24 00:19:48,122] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-24 00:19:48,793] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-24 00:19:49,430] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:19:49,506] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:19:50,260] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-24 00:19:50,955] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-24 00:19:55,254] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-24 00:19:55,405]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,406] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-24 00:19:55,447]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,487]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,521]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,560]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,599]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,669]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,742]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,778]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:19:55,778] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-24 00:20:00,020] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:20:00,102] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:20:00,939] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-24 00:20:02,752] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:20:02,891]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:20:03,018] Search Customer [with Email] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:20:04,691] Search Customer [with Email] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:20:05,385] Search Customer [with Email] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:20:05,464] Search Customer [with Email] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:20:13,885] Search Customer [with Email] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:20:14,550] Search Customer [with Email] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:20:14,599]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:20:14,603] OS name = windows 10
+[INFO ] [2021-01-24 00:20:15,432] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-24 00:22:18,546] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:22:19,227] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:22:19,851] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-24 00:22:26,187] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-24 00:22:29,591] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-24 00:22:32,163] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-24 00:22:32,821] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-24 00:22:33,467] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-24 00:22:34,086] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-24 00:22:34,769] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-24 00:22:34,922] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-24 00:22:35,537] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-24 00:22:36,237] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:22:36,316] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:22:37,146] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-24 00:22:37,847] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-24 00:22:42,069] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-24 00:22:42,116]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,116] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-24 00:22:42,159]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,197]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,233]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,277]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,314]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,352]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,396]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,430]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:42,431] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-24 00:22:44,507] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:22:44,585] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:22:45,387] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-24 00:22:46,705] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:22:46,783]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:46,915] Search Customer [with Email] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:22:48,391] Search Customer [with Email] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:22:49,109] Search Customer [with Email] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:22:49,183] Search Customer [with Email] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:22:49,887] Search Customer [with Email] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:22:51,666] Search Customer [with Email] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:22:51,726]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:22:51,730] OS name = windows 10
+[INFO ] [2021-01-24 00:22:52,571] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-24 00:35:35,085] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:35:35,757] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:35:36,445] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-24 00:35:43,564] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-24 00:35:46,959] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-24 00:35:48,054] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-24 00:35:48,753] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-24 00:35:49,478] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-24 00:35:50,090] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-24 00:35:50,732] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-24 00:35:50,816] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-24 00:35:51,483] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-24 00:35:52,137] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:35:52,214] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:35:52,911] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-24 00:35:53,639] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-24 00:35:56,382] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-24 00:35:56,476]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,476] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-24 00:35:56,528]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,566]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,600]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,638]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,673]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,711]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,754]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,789]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:35:56,789] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-24 00:35:58,363] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:35:58,440] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:35:59,191] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-24 00:35:59,856] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:35:59,928]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:36:00,056] Search Customer [With Email] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:36:01,557] Search Customer [With Email] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:36:02,192] Search Customer [With Email] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:36:02,270] Search Customer [With Email] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:36:03,088] Search Customer [With Email] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:36:03,767] Search Customer [With Email] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:36:03,842]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:36:03,846] Search Customer [With FirstName and LastName] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:36:05,417] Search Customer [With FirstName and LastName] - Step 02: Enter to 'Firstname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:36:06,145] Search Customer [With FirstName and LastName] - Step 03: Enter to 'Lastname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:36:06,817] Search Customer [With FirstName and LastName] - Step 04: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:36:06,891] Search Customer [With FirstName and LastName] - Step 05: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:36:07,580] Search Customer [With FirstName and LastName] - Step 06: Click to 'Search' Button
+[INFO ] [2021-01-24 00:36:09,275] Search Customer [With FirstName and LastName] - Step 07: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:36:09,313]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:36:09,316] Search Customer [With Company] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:36:13,486] Search Customer [With Company] - Step 02: Enter to 'Company' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:36:14,243] Search Customer [With Company] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:36:14,313] Search Customer [With Company] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:36:15,066] Search Customer [With Company] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:36:16,733] Search Customer [With Company] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:36:16,777]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:36:16,779] OS name = windows 10
+[INFO ] [2021-01-24 00:36:18,377] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-24 00:47:08,709] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:47:09,468] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:47:10,092] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-24 00:47:13,601] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-24 00:47:16,840] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-24 00:47:18,587] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-24 00:47:19,337] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-24 00:47:20,022] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-24 00:47:20,658] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-24 00:47:21,375] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-24 00:47:21,538] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-24 00:47:22,271] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-24 00:47:23,003] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:47:23,078] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:47:23,957] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-24 00:47:24,730] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-24 00:47:27,585] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-24 00:47:27,632]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,633] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-24 00:47:27,679]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,717]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,753]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,788]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,823]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,858]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,901]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,939]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:47:27,939] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-24 00:47:29,459] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:47:29,537] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:47:30,351] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-24 00:47:30,979] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:47:46,333] OS name = windows 10
+[INFO ] [2021-01-24 00:47:47,143] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-24 00:48:13,289] Pre-condition - Step 01: Enter To 'Email' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:48:14,071] Pre-condition - Step 02: Enter To 'Password' Textbox at 'Login' Page
+[INFO ] [2021-01-24 00:48:14,782] Pre-condition - Step 03: Click To 'Log in' Button at 'Login' Page
+[INFO ] [2021-01-24 00:48:20,785] Pre-condition - Step 04: Open 'Products' Page
+[INFO ] [2021-01-24 00:48:24,138] Create New Customer - Step 01: Click to 'Add new' Button 
+[INFO ] [2021-01-24 00:48:25,167] Create New Customer - Step 02: Enter to 'Email' Textbox
+[INFO ] [2021-01-24 00:48:25,851] Create New Customer - Step 03: Enter to 'Password' Textbox
+[INFO ] [2021-01-24 00:48:26,520] Create New Customer - Step 04: Enter to 'First name' Textbox
+[INFO ] [2021-01-24 00:48:27,134] Create New Customer - Step 05: Enter to 'Last name' Textbox
+[INFO ] [2021-01-24 00:48:27,841] Create New Customer - Step 06: Click to 'GenderMale' Radio Button
+[INFO ] [2021-01-24 00:48:27,954] Create New Customer - Step 07: Enter to 'Date of birth' Textbox
+[INFO ] [2021-01-24 00:48:28,615] Create New Customer - Step 08: Enter to 'Company name' Textbox
+[INFO ] [2021-01-24 00:48:29,394] Create New Customer - Step 09: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:29,473] Create New Customer - Step 10: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:30,325] Create New Customer - Step 11: Enter to 'Admin comment' Textbox
+[INFO ] [2021-01-24 00:48:31,023] Create New Customer - Step 12: Click to 'Save and Continue Edit'
+[INFO ] [2021-01-24 00:48:33,641] Create New Customer - Step 13: Verify Success Message is displayed with value 'The new customer has been added successfully.'
+[INFO ] [2021-01-24 00:48:33,735]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,735] Create New Customer - Step 14: Verify Infomation Customer Details are displayed correctly
+[INFO ] [2021-01-24 00:48:33,782]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,829]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,870]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,908]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,946]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:33,987]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:34,035]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:34,071]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:34,072] Create New Customer - Step 15: Click to 'back to customer list' Link
+[INFO ] [2021-01-24 00:48:35,677] Create New Customer - Step 16: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:35,751] Create New Customer - Step 17: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:36,465] Create New Customer - Step 18: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:37,125] Create New Customer - Step 19: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:37,171]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:37,298] Search Customer [Email] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:48:38,764] Search Customer [Email] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:39,393] Search Customer [Email] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:39,488] Search Customer [Email] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:40,187] Search Customer [Email] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:40,873] Search Customer [Email] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:40,973]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:40,980] Search Customer [FirstName and LastName] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:48:42,498] Search Customer [FirstName and LastName] - Step 02: Enter to 'Firstname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:43,196] Search Customer [FirstName and LastName] - Step 03: Enter to 'Lastname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:43,876] Search Customer [FirstName and LastName] - Step 04: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:43,965] Search Customer [FirstName and LastName] - Step 05: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:44,798] Search Customer [FirstName and LastName] - Step 06: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:45,466] Search Customer [FirstName and LastName] - Step 07: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:45,547]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:45,551] Search Customer [Company] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:48:47,081] Search Customer [Company] - Step 02: Enter to 'Company' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:47,804] Search Customer [Company] - Step 03: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:47,919] Search Customer [Company] - Step 04: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:48,679] Search Customer [Company] - Step 05: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:49,425] Search Customer [Company] - Step 06: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:49,489]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:49,492] Search Customer [Full Data] - Step 01: Refresh Current Page
+[INFO ] [2021-01-24 00:48:51,041] Search Customer [Full Data] - Step 02: Enter to 'Email' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:51,733] Search Customer [Full Data] - Step 03: Enter to 'Firstname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:52,422] Search Customer [Full Data] - Step 04: Enter to 'Lastname' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:53,116] Search Customer [Full Data] - Step 05: Select 'Month' Dropdown with value ''
+[INFO ] [2021-01-24 00:48:53,239] Search Customer [Full Data] - Step 06: Select 'Day' Dropdown with value ''
+[INFO ] [2021-01-24 00:48:53,339] Search Customer [Full Data] - Step 07: Enter to 'Company' Textbox in 'Search' section
+[INFO ] [2021-01-24 00:48:54,062] Search Customer [Full Data] - Step 08: Click to 'X' Button at 'Customer roles' Textbox
+[INFO ] [2021-01-24 00:48:54,155] Search Customer [Full Data] - Step 09: Select 'Customer roles' Dropdown
+[INFO ] [2021-01-24 00:48:54,934] Search Customer [Full Data] - Step 10: Click to 'Search' Button
+[INFO ] [2021-01-24 00:48:55,570] Search Customer [Full Data] - Step 11: Verify Infomation Customer is displayed in table
+[INFO ] [2021-01-24 00:48:55,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-24 00:48:55,612] OS name = windows 10
+[INFO ] [2021-01-24 00:48:56,596] ---------- QUIT BROWSER SUCCESS ----------
