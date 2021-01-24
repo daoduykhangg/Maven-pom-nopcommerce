@@ -25,4 +25,29 @@ public class AdminCustomersUI {
 	public static final String COMPANYNAME_TEXTBOX_IN_SEARCH_SECTION = "//input[@id='SearchCompany']";
 	public static final String MONTH_DROPDOWN_IN_SEARCH_SECTION = "//select[@id='SearchMonthOfBirth']";
 	public static final String DAY_DROPDOWN_IN_SEARCH_SECTION = "//select[@id='SearchDayOfBirth']";
+	public static final String DYNAMIC_EDIT_BUTTON_AT_CUSTOMERS = "//td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[@class=' text-center']//i[contains(@class,'%s-icon')]/parent::td/following-sibling::td/a[text()='Edit']";
+	public static final String SAVE_BUTTON = "//button[@name='save']";
+	
+	public static final String ADD_NEW_ADDRESS_BUTTON = "//button[contains(text(), 'Add new address')]";
+	public static final String ADDRESS_FIRSTNAME_TEXTBOX = "//input[@id='Address_FirstName']";
+	public static final String ADDRESS_LASTNAME_TEXTBOX = "//input[@id='Address_LastName']";
+	public static final String ADDRESS_EMAIL_TEXTBOX = "//input[@id='Address_Email']";
+	public static final String ADDRESS_COMPANY_TEXTBOX = "//input[@id='Address_Company']";
+	public static final String ADDRESS_COUNTRY_DROPDOWN = "//select[@id='Address_CountryId']";
+	public static final String ADDRESS_STATE_DROPDOWN = "//select[@id='Address_StateProvinceId']";
+	public static final String ADDRESS_CITY_TEXTBOX = "//input[@id='Address_City']";
+	public static final String ADDRESS_ADDRESS1_TEXTBOX = "//input[@id='Address_Address1']";
+	public static final String ADDRESS_ADDRESS2_TEXTBOX = "//input[@id='Address_Address2']";
+	public static final String ADDRESS_ZIPCODE_TEXTBOX = "//input[@id='Address_ZipPostalCode']";
+	public static final String ADDRESS_PHONE_NUMER_TEXTBOX = "//input[@id='Address_PhoneNumber']";
+	public static final String ADDRESS_FAX_NUMBER_TEXTBOX = "//input[@id='Address_FaxNumber']";
+	public static final String BACK_TO_CUSTOMER_DETAILS = "//a[text()='back to customer details']";
+	public static final String INFOR_NEW_ADDRESS_IN_TABLE = "//td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td/div[text()='%s' and text()='%s' and text()='%s' and text()='%s,%s' and text()='%s']";
+	public static final String INFOR_NEW_ADDRESS_HAS_STATEATIN_TABLE = "//td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td/div[text()='%s' and text()='%s' and text()='%s' and text()='%s,%s,%s' and text()='%s']";
+	public static final String SAVE_BUTTON_AT_ADD_A_NEW_ADDRESS = "//button[contains(text(),'Save')]";
+	public static final String DYNAMIC_EDIT_BUTTON_AT_CUSTOMER_DETAILS = "//td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td/div[text()='%s' and text()='%s' and text()='%s' and text()='%s,%s' and text()='%s']/parent::td/following-sibling::td//a[text()='Edit']";
+	public static final String DYNAMIC_EDIT_BUTTON_HAS_STATEAT_CUSTOMER_DETAILS = "//td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td/div[text()='%s' and text()='%s' and text()='%s' and text()='%s,%s,%s' and text()='%s']/parent::td/following-sibling::td//a[text()='Edit']";
+	public static final String DYNAMIC_DELETE_BUTTON_CUSTOMER_DETAILS = "//td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td/div[text()='%s' and text()='%s' and text()='%s' and text()='%s,%s' and text()='%s']/parent::td/following-sibling::td//a[text()='Delete']";
+	public static final String DYNAMIC_DELETE_BUTTON_HAS_STATEAT_CUSTOMER_DETAILS = "//td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td[text()='%s']/following-sibling::td/div[text()='%s' and text()='%s' and text()='%s' and text()='%s,%s,%s' and text()='%s']/parent::td/following-sibling::td//a[text()='Delete']";
+	public static final String NO_DATA_AVAILABLE_IN_TABLE = "//div[@id='customer-address']//td[@class='dataTables_empty']";
 }
